@@ -1,0 +1,15 @@
+{
+    "rpc":{
+        "method":"hello",
+        "then":[
+            {
+                "method":"hello"
+            }
+        ], 
+        "catch":[
+            {
+                "method": "hello"
+            }
+        ]
+    }
+}
